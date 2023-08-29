@@ -59,11 +59,11 @@ public class TV {
 		return estado;
 	}
 	
-	public int getNumtv() {
+	public int getNumTV() {
 		return numtv;
 	}
 	
-	public static void setNumtv(int numtvmod) {
+	public static void setNumTV(int numtvmod) {
 		numtv = numtvmod;
 	}
 
