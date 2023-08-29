@@ -10,7 +10,7 @@ public class TV {
 	private static int numTV = 0;
 	
 	public TV(Marca marca, boolean estado){
-		numTV ++;
+		TV.numTV ++;
 		this.marca = marca;
 		this.estado = estado;
 	}
