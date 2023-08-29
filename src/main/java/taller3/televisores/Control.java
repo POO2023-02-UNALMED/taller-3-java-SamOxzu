@@ -28,19 +28,11 @@ public class Control {
 	}
 	
 	public void setCanal(int canal) {
-		if(canal <= 120) {
-			if(canal >= 0) {
-				tv.canal = canal;
-			}
-		}
+		tv.setCanal(canal);
 	}
 	
 	public void setVolumen(int volumen) {
-		if(volumen <= 7) {
-			if(volumen >= 0) {
-				tv.volumen = volumen;
-			}
-		}
+		tv.setVolumen(volumen);
 	}
 	
 	public void enlazar(TV tv) {
